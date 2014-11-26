@@ -282,9 +282,9 @@ div#project-title {
     color: #fff;
 }
 
-div#project-content-container {
+#project-content-container {
     width: 1000px;
-    height: 500px;
+    height: 600px;
     position: relative;
     background: #E3E3E3;
     left: calc(50% - 500px);
@@ -353,13 +353,13 @@ div#about-title {
     color: #fff;
 }
 
-div#about-container {
+#about-container {
     position: relative;
     background: #E3E3E3;
     width: 1000px;
-    height: 500px;
+    height: 600px;
     left: calc(50% - 500px);
-    top: calc(50% - 250px);
+    top: calc(50% - 300px);
     overflow: scroll;
     border-radius: 5px;
 }
@@ -397,13 +397,13 @@ div#resume-title {
     top: 20px;
 }
 
-div#resume-container {
+#resume-container {
     position: relative;
     width: 1000px;
-    height: 500px;
+    height: 600px;
     background: #E3E3E3;
     left: calc(50% - 500px);
-    top: calc(50% - 250px);
+    top: calc(50% - 300px);
 }
 
 object#resume {
@@ -535,11 +535,49 @@ div#contact-button:hover {
 }
 
 /* Media Queries. */
-@media (max-width: 480px) {
+@media (max-width: 1280px) {
     #project-content-container {
-        height: 50px;
-        width: 100px;
-        background: black;
+        height: 500px;
+        width: 800px;
+        left: calc(50% - 400px);
+        top: calc(50% - 250px);
     }
 
+    #about-container {
+        height: 500px;
+        width: 800px;
+        left: calc(50% - 400px);
+        top: calc(50% - 250px);
+    }
+
+    #resume-container {
+        height: 500px;
+        width: 800px;
+        left: calc(50% - 400px);
+        top: calc(50% - 250px);
+    }
+
+}
+
+@media (min-width: 1350px) {
+    #project-content-container {
+        height: 700px;
+        width: 1100px;
+        left: calc(50% - 550px);
+        top: calc(50% - 350px);
+    }
+
+    #about-container {
+        height: 700px;
+        width: 1100px;
+        left: calc(50% - 550px);
+        top: calc(50% - 350px);
+    }
+
+    #resume-container {
+        height: 700px;
+        width: 1100px;
+        left: calc(50% - 550px);
+        top: calc(50% - 350px);
+    }
 }
