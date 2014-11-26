@@ -284,7 +284,7 @@ div#project-title {
 
 #project-content-container {
     width: 1000px;
-    height: 600px;
+    height: 500px;
     position: relative;
     background: #E3E3E3;
     left: calc(50% - 500px);
@@ -357,9 +357,9 @@ div#about-title {
     position: relative;
     background: #E3E3E3;
     width: 1000px;
-    height: 600px;
+    height: 500px;
     left: calc(50% - 500px);
-    top: calc(50% - 300px);
+    top: calc(50% - 250px);
     overflow: scroll;
     border-radius: 5px;
 }
@@ -400,10 +400,10 @@ div#resume-title {
 #resume-container {
     position: relative;
     width: 1000px;
-    height: 600px;
+    height: 500px;
     background: #E3E3E3;
     left: calc(50% - 500px);
-    top: calc(50% - 300px);
+    top: calc(50% - 250px);
 }
 
 object#resume {
