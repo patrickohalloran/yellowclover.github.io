@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>Patrick O'Halloran</title>
+<style>
+@font-face { font-family: hand_of_sean; src: url('assets/hand_of_sean/Hand_Of_Sean_Demo.ttf'); }
+</style>
+<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<script src="assets/js/jquery-1.9.1.js"></script>
+<script src="assets/js/script.js"></script>
+</head>
+<body>
+	<div id="window-container">
+		<div id="panel-left">
+			<div id="about-title">About Me</div>
+			<div class="home-arrow" id="about-right"><img src="assets/img/arrowG.png"></div>
+			<div id="about-container">
+				<div id="thumbnail"><img src="assets/img/profilePicture.jpg"></div>
+				<div id="heading">Patrick O'Halloran</div>
+				<div id="subheading">Sophomore, Cognitive Science Major, Computer Science Minor</div>
+				<div id="description">I am 19 years old and very interested in the field of Human
+		            Computer Interaction, also known as HCI. I am majoring in
+		            Cognitive Science because I love the intersection where
+		            Computer Science and programming meet design. I am also planning on minoring
+		            in Computer Science. This past summer I worked at Northrop
+		            Grumman as an intern which was an awesome experience. Someday I hope to
+		            work at a company where I can design and program at the same time. In time my free
+		            time I love trying new things with friends, playing and watching basketball,
+		            and eating good Mexican food (from San Diego, the best city ever!).
+		        </div>
+			</div>
+		</div>
+		<div id="panel-home">
+			<div class="home-arrow" id="home-up"><img src="assets/img/arrowG.png"></div>
+			<div class="home-arrow" id="home-right"><img src="assets/img/arrowG.png"></div>
+			<div class="home-arrow" id="home-down"><img src="assets/img/arrowG.png"></div>
+			<div class="home-arrow" id="home-left"><img src="assets/img/arrowG.png"></div>
+			<div id="home-content">
+				<div class="home-items" id="resume">resume</div>
+				<div class="home-items" id="about">about</div>
+				<div class="home-items" id="my-name">Patrick O'Halloran</div>
+				<div class="home-items" id="projects">projects</div>
+				<div class="home-items" id="contact">contact</div>
+			</div>
+			<div id="credits-page"><a href="credits.html">credits</a></div>
+			<div class="arrow-keys-container">
+				<div id="home-keys">
+					<div class="key" id="home-key-up"></div>
+					<div class="key" id="home-key-right"></div>
+					<div class="key" id="home-key-down"></div>
+					<div class="key" id="home-key-left"></div>
+				</div>
+			</div>
+		</div>
+		<div id="panel-up">
+			<div class="home-arrow" id="resume-down"><img src="assets/img/arrowG.png"></div>
+			<div id="resume-title">Resume</div>
+			<div id="resume-container">
+				<object data="assets/img/resumeCompressed.pdf" type="application/pdf" id="resume"></object>
+			</div>
+		</div>
+		<div id="panel-right">
+			<div class="home-arrow" id="projects-left"><img src="assets/img/arrowG.png"></div>
+			<div id="project-title">projects</div>
+			<div id="project-content-container">
+				<div class="project-entry-box" id="personal-website">
+					<div class="project-title" id="personal-website-title">Personal Website</div>
+					<img src="assets/img/personal_website.png" class="project-picture">
+					<p class="project-description" id="personal-website-description">
+					Web Design Decal, November 2014 <br /><br />
+					Implemented along with some jQuery functions to create
+					some of the animations and transitions. This is my first
+					full website I have created. Used some of the design theory
+					that we learned in class to choose the color, typography,
+					mappings (keys on the home page).
+					</p>
+				</div>
+				<div class="project-entry-box" id="jump61">
+					<div class="project-title" id="jump61-title">jump61</div>
+					<img src="assets/img/jump61.png" class="project-picture">
+					<p class="project-description" id="jump61-description">
+					Computer Science 61B (Data Structures), November 2014 <br /><br />
+					Implemented much of the game logic, handling user input and an AI.
+					The crux of this project revolved around implementing the minimax
+					algorithm, along with handling user input within the context of a
+					somewhat large project. Programmed in Java.
+					</p>
+				</div>
+				<div class="project-entry-box" id="imdb">
+					<div class="project-title" id="imdb-title">IMDB Redesign</div>
+					<img src="assets/img/imdb.png" class="project-picture">
+					<p class="project-description" id="imdb-description">
+					Web Design Decal, November 2014 <br /><br />
+					Redesigned the home page of the IMDb website. Implemented using only
+					HTML and CSS. Used design theory about spacing, color and positioning
+					to create a more minimalistic take on the (in my opinion) cluttered
+					website that is IMDb.
+					</p>
+				</div>
+				<div class="project-entry-box" id="battleship">
+					<div class="project-title" id="battleship-title">Battleship</div>
+					<img src="assets/img/battleship.png" class="project-picture">
+					<p class="project-description" id="battleship-description">
+					Computer Science 10 (Beauty and Joy of Computing), December 2013 <br /><br />
+					Implemented a remake of the board game Battleship with two teammates.
+					We built this entirely from scratch (except the GUI) and implemented
+					two different AI players of varying difficulty. Received honorable mention
+					among the best final projects of the semester. You can view our video
+					<a href="https://www.youtube.com/watch?v=L8QbIaWD6o8" target="_blank">here!</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div id="panel-down">
+			<div class="home-arrow" id="contact-up"><img src="assets/img/arrowG.png"></div>
+			<div id="contact-container">
+				<div id="contact-overlay"></div>
+				<div id="contact-wrapper">
+					<div id="contact-box">
+						<div id="email">email: patrickohalloran3@gmail.com</div>
+						<div id="facebook">facebook: https://www.facebook.com/patrick.ohalloran.94</div>
+					</div>
+				</div>
+			</div>
+			<div id="contact-button">
+				<div id="catch-phrase">Wanna talk?</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
