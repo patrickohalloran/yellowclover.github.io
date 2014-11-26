@@ -535,26 +535,26 @@ div#contact-button:hover {
 }
 
 /* Media Queries. */
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
     #project-content-container {
-        height: 500px;
+        height: 400px;
         width: 800px;
         left: calc(50% - 400px);
-        top: calc(50% - 250px);
+        top: calc(50% - 200px);
     }
 
     #about-container {
-        height: 500px;
+        height: 400px;
         width: 800px;
         left: calc(50% - 400px);
-        top: calc(50% - 250px);
+        top: calc(50% - 200px);
     }
 
     #resume-container {
-        height: 500px;
+        height: 400px;
         width: 800px;
         left: calc(50% - 400px);
-        top: calc(50% - 250px);
+        top: calc(50% - 200px);
     }
 
 }
