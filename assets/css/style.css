@@ -557,6 +557,13 @@ div#contact-button:hover {
         top: calc(50% - 200px);
     }
 
+    .project-description {
+        position: absolute;
+        width: 40%;
+        margin: 20px;
+        font-size: 10px;
+    }
+
 }
 
 @media (min-width: 1350px) {
