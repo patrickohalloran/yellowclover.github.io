@@ -57,7 +57,6 @@ $(document).ready(function() {
 
 	/* The animation for switching between windows with the arrow keys. */
 	$(document).keydown(function(e) {
-		// alert($('#window-container').css("-transform"));
 		var matrixToArray = function(str) {
 			return str.match(/(-?[0-9\.]+)/g);
 		};
